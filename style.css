@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
+    background-color: #000000;
+}
+
+.header-font {
+    font-size: 22.15px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.logo-font {
+    font-size: 22.15px;
+    font-weight: 600;
+    line-height: 27px;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    height: 165px;
+    width: 100%;
+}
+
+.nav-bar nav {
+    display: flex;
+    width: 100%;
+    padding: 5rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-bar nav div ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    gap: 3.4rem;
+}
+
+.agency-description {
+    
+}
