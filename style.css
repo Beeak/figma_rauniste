@@ -59,3 +59,18 @@ body {
     font-size: 34.8438px;
     line-height: 33px;
 }
+
+.portfolio {
+}
+
+.portfolio-pics {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.portfolio-item {
+    display: flex;
+    width: 563.57px;
+    height: 544.16px;
+    align-items: center;
+}
