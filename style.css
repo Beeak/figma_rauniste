@@ -162,3 +162,24 @@ h1 {
 #box4 {
     background-color: #B4B4B4;
 }
+
+.box-title {
+    font-weight: 700;
+    font-size: 60.8412px;
+    line-height: 58px;
+    color: #000000;
+}
+
+.box-text {
+    font-weight: 400;
+    font-size: 26.8575px;
+    line-height: 26px;
+    color: #000000;
+}
+
+.box-quote {
+    font-weight: 400;
+    font-size: 26.8575px;
+    line-height: 26px;
+    color: #000000;
+}
