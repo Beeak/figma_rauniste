@@ -22,14 +22,14 @@ body {
     line-height: 27px;
 }
 
-.nav-bar {
+header {
     display: flex;
     align-items: center;
     height: 165px;
     width: 100%;
 }
 
-.nav-bar nav {
+header nav {
     display: flex;
     width: 100%;
     padding: 5rem;
@@ -37,11 +37,20 @@ body {
     align-items: center;
 }
 
-.nav-bar nav div ul {
+header nav div ul {
     display: flex;
     justify-content: space-between;
     list-style-type: none;
     gap: 3.4rem;
+}
+
+.project-link {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.project-link:visited {
+    text-decoration: none;
 }
 
 .agency-description {
@@ -129,6 +138,10 @@ h1 {
     height: 374.46px;
 }
 
+.services {
+    margin-bottom: 320.91px;
+}
+
 .services-text {
     display: flex;
     justify-content: center;
@@ -143,8 +156,11 @@ h1 {
 }
 
 .services-boxes {
+    display: flex;
+    flex-direction: column;
     width: 558.51px;
     height: 516.95px;
+    padding: 43.7px 30.9px 76.82px 30.9px;
 }
 
 #box1 {
@@ -164,22 +180,89 @@ h1 {
 }
 
 .box-title {
+    word-spacing: 11rem;
+    width: 496.72px;
+    height: 116px;
     font-weight: 700;
     font-size: 60.8412px;
     line-height: 58px;
     color: #000000;
+    margin-bottom: 25.26px;
 }
 
 .box-text {
+    width: 496.72px;
+    height: 156px;
+    font-weight: 400;
+    font-size: 26.8575px;
+    line-height: 26px;
+    color: #000000;
+    margin-bottom: 73.81px;
+}
+
+.box-quote {
+    width: 149px;
     font-weight: 400;
     font-size: 26.8575px;
     line-height: 26px;
     color: #000000;
 }
 
-.box-quote {
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 122.63px;
+    margin-bottom: 258.4px
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 6px;
+    align-items: center;
     font-weight: 400;
-    font-size: 26.8575px;
-    line-height: 26px;
+    font-size: 63.7913px;
+    line-height: 61px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 64.09px;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 22.5px 90.15px 22.5px 100.68px;
+}
+
+.left-bar {
+    height: auto;
+    width: 148px;
+    text-align: center;
+}
+
+.left-bar p {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 19px;
     color: #000000;
+}
+
+.right-bar ul {
+    display: flex;
+    width: auto;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 98.81px;
+}
+
+.right-bar ul li {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 19px;
+    color: #000000;
+    list-style-type: none;
 }
