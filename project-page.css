@@ -9,3 +9,57 @@ body {
     color: #ffffff;
     background-color: #000000;
 }
+
+header {
+    margin: 95.38px 0 171.49px 90.77px;
+}
+
+header nav ul a {
+    display: flex;
+    background-color: #000000;
+    flex-direction: row;
+}
+
+.back-link {
+    text-decoration: none;
+}
+
+.back-text {
+    font-weight: 500;
+    font-size: 31.3194px;
+    line-height: 38px;
+    padding-left: 20.26px;
+    color: #ffffff;
+}
+
+.product-design {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 283.42px;
+}
+
+.product-design h1 {
+    width: 847.14px;
+    height: 154px;
+    font-weight: 400;
+    font-size: 80.4722px;
+    line-height: 77px;
+    text-align: center;
+    margin: 0 auto 156.87px;
+}
+
+.product-design img {
+    width: 1336.84px;
+    height: 752.5px;
+    margin: 0 auto 102.85px;
+}
+
+.product-design p {
+    width: 1034.82px;
+    height: 149.5px;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 29px;
+    text-align: center;
+    margin: 0 auto;
+}
