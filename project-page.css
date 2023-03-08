@@ -63,3 +63,31 @@ header nav ul a {
     text-align: center;
     margin: 0 auto;
 }
+
+.products {
+    display: flex;
+    width: 1530px;
+    flex-direction: row;
+}
+
+.left-products {
+    display: flex;
+    width: 539.66px;
+    flex-direction: column;
+}
+
+.left-products img {
+    width: 539.66px;
+    height: 949.51px;
+}
+
+.right-products {
+    display: flex;
+    width: 567.94px;
+    flex-direction: column;
+}
+
+.right-products img {
+    width: 567.94px;
+    height: 853.92px;
+}
