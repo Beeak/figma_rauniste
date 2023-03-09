@@ -8,6 +8,11 @@ body {
     font-family: 'Inter', sans-serif;
     color: #ffffff;
     background-color: #000000;
+    max-width: 100%;
+}
+
+.main {
+    width: 100%;
 }
 
 .header-font {
@@ -25,8 +30,9 @@ body {
 header {
     display: flex;
     align-items: center;
-    height: 165px;
+    max-height: 165px;
     width: 100%;
+    margin-bottom: 134.87px;
 }
 
 header nav {
@@ -56,13 +62,14 @@ header nav div ul {
 .agency-description {
     display: flex;
     width: 100%;
-    height: 350px;
+    max-height: 350px;
+    margin-bottom: 286.17px;
     align-items: center;
 }
 
 .agency-description h2 {
     margin: 0 auto;
-    width: 750.29px;
+    max-width: 750.29px;
     font-weight: 400;
     text-align: center;
     font-size: 34.8438px;
@@ -75,23 +82,26 @@ header nav div ul {
 
 .portfolio-text {
     display: flex;
-    width: 100%;
-    height: 350px;
+    max-width: 100%;
+    max-height: 350px;
     align-items: center;
     justify-content: center;
+    margin-bottom: 125.82px;
 }
 
 .portfolio-pics {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding: 0 352px;
+    padding: 0 360px;
 }
 
 .portfolio-item {
     display: flex;
-    width: 563.57px;
-    height: 544.16px;
     align-items: center;
+    min-width: 202px;
+    min-height: 209.5px;
+    max-width: 565px;
+    max-height: 545px;
 }
 
 h1 {
@@ -102,8 +112,8 @@ h1 {
 
 .about {
     display: flex;
-    width: 1117.79px;
-    height: 733.61px;
+    max-width: 1117.79px;
+    max-height: 733.61px;
     flex-direction: column;
     margin: 0 auto;
     margin-bottom: 343.18px;
@@ -117,11 +127,12 @@ h1 {
 }
 
 .about-text p {
+    align-self: center;
     font-weight: 300;
     font-size: 31.3802px;
     line-height: 29.98px;
     text-align: center;
-    height: 170.46px;
+    max-height: 170.46px;
 }
 
 .about-text h1 {
@@ -134,8 +145,8 @@ h1 {
 }
 
 .about-pics img {
-    width: 279.32px;
-    height: 374.46px;
+    max-width: 279.32px;
+    max-height: 374.46px;
 }
 
 .services {
@@ -152,14 +163,14 @@ h1 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin: 0 auto;
-    width: 1117.79px;
+    max-width: 1117.79px;
 }
 
 .services-boxes {
     display: flex;
     flex-direction: column;
-    width: 558.51px;
-    height: 516.95px;
+    max-width: 558.51px;
+    max-height: 516.95px;
     padding: 43.7px 30.9px 76.82px 30.9px;
 }
 
@@ -181,8 +192,8 @@ h1 {
 
 .box-title {
     word-spacing: 11rem;
-    width: 496.72px;
-    height: 116px;
+    max-width: 496.72px;
+    max-height: 116px;
     font-weight: 700;
     font-size: 60.8412px;
     line-height: 58px;
@@ -191,8 +202,8 @@ h1 {
 }
 
 .box-text {
-    width: 496.72px;
-    height: 156px;
+    max-width: 496.72px;
+    max-height: 156px;
     font-weight: 400;
     font-size: 26.8575px;
     line-height: 26px;
@@ -201,7 +212,7 @@ h1 {
 }
 
 .box-quote {
-    width: 149px;
+    max-width: 149px;
     font-weight: 400;
     font-size: 26.8575px;
     line-height: 26px;
@@ -232,7 +243,7 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 64.09px;
+    max-height: 64.09px;
     width: 100%;
     background-color: #ffffff;
     padding: 22.5px 90.15px 22.5px 100.68px;
@@ -240,7 +251,7 @@ footer {
 
 .left-bar {
     height: auto;
-    width: 148px;
+    max-width: 148px;
     text-align: center;
 }
 
@@ -267,6 +278,51 @@ footer {
     list-style-type: none;
 }
 
-@media only screen and (min-width: 756px) {
-    
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-device-pixel-ratio: 2) {
+    .header-text {
+        display: none;
+    }
+
+    .agency-description h2 {
+        font-size: 11.43px;
+        line-height: 10.92px;
+    }
+
+    h1 {
+        font-size: 24.85px;
+        line-height: 23.74px;
+    }
+
+    .portfolio-pics {
+        display: flex;
+        flex-direction: row;
+        overflow: hidden;
+    }
+
+    .about-text p {
+        font-size: 8px;
+        line-height: 8px;
+    }
+
+    .contact {
+        margin-bottom: 70.26px;
+    }
+
+    .contact-info {
+        font-size: 17.2844px;
+        line-height: 17px;
+    }
+
+    footer {
+        background-color: #000000;
+        justify-content: center;
+    }
+
+    .left-bar p {
+        color: #ffffff;
+    }
+
+    .right-bar {
+        display: none;
+    }
 }
