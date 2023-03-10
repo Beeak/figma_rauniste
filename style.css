@@ -8,7 +8,6 @@ body {
     font-family: 'Inter', sans-serif;
     color: #ffffff;
     background-color: #000000;
-    max-width: 100%;
 }
 
 .main {
@@ -98,8 +97,6 @@ header nav div ul {
 .portfolio-item {
     display: flex;
     align-items: center;
-    min-width: 202px;
-    min-height: 209.5px;
     max-width: 565px;
     max-height: 545px;
 }
@@ -145,8 +142,8 @@ h1 {
 }
 
 .about-pics img {
-    max-width: 279.32px;
-    max-height: 374.46px;
+    width: 279.32px;
+    height: 374.46px;
 }
 
 .services {
@@ -279,11 +276,29 @@ footer {
 }
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-device-pixel-ratio: 2) {
+    header {
+        margin-bottom: 48.05px
+    }
+    
+    header nav {
+        padding: 34.07px 36.27px;
+    }
+    
     .header-text {
         display: none;
     }
 
+    .logo-font {
+        font-size: 8.94673px;
+            line-height: 11px;
+    }
+
+    .agency-description {
+        margin-bottom: 95.98px;
+    }
+
     .agency-description h2 {
+        padding: 0 90.26px;
         font-size: 11.43px;
         line-height: 10.92px;
     }
@@ -293,19 +308,94 @@ footer {
         line-height: 23.74px;
     }
 
+    .portfolio {
+        margin-bottom: 105.66px;
+    }
+
     .portfolio-pics {
         display: flex;
-        flex-direction: row;
+        width: 209.5px;
+        height: 202px;
         overflow: hidden;
+        padding: 0;
+        gap: 19.33px;
+    }
+
+    .portfolio-item {
+        display: flex;
+        align-items: normal;
+    }
+
+    .about-pics {
+        overflow: hidden;
+        object-fit: scale-down;
+    }
+
+    .about-pics img {
+        width: 109.39px;
+        height: 146.65px;
+    }
+
+    figure {
+        position: relative;
+        overflow: visible;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        left: 0;
+    }
+
+    figure img {
+        height: auto;
+        float: left;
+    }
+
+    .about {
+        margin-bottom: 91.03px;
     }
 
     .about-text p {
         font-size: 8px;
         line-height: 8px;
+        padding: 0 50.6px;
+    }
+
+    .services {
+        margin-bottom: 83.58px;
+    }
+
+    .services-items {
+        display: flex;
+        overflow: hidden;
+        flex-direction: row;
+        height: 200px;
+        gap: 20px;
+    }
+
+    .services-boxes {
+        height: 200px;
+        aspect-ratio: 1/1.08;
     }
 
     .contact {
+        gap: 43.12px;
         margin-bottom: 70.26px;
+    }
+
+    .box-title {
+        font-size: 15.3928px;
+        line-height: 15px;
+    }
+
+    .box-text {
+        font-size: 6.79492px;
+        line-height: 6px;
+        margin-bottom: 22.14px;
+    }
+
+    .box-quote {
+        font-size: 6.79492px;
+        line-height: 6px;
     }
 
     .contact-info {

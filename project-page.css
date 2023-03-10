@@ -39,7 +39,7 @@ header nav ul a {
 }
 
 .product-design h1 {
-    width: 847.14px;
+    max-width: 847.14px;
     height: 154px;
     font-weight: 400;
     font-size: 80.4722px;
@@ -49,13 +49,13 @@ header nav ul a {
 }
 
 .product-design img {
-    width: 1336.84px;
-    height: 752.5px;
+    max-width: 1336.84px;
+    max-height: 752.5px;
     margin: 0 auto 102.85px;
 }
 
 .product-design p {
-    width: 1034.82px;
+    max-width: 1034.82px;
     height: 149.5px;
     font-weight: 300;
     font-size: 30px;
@@ -66,29 +66,29 @@ header nav ul a {
 
 .products {
     display: flex;
-    width: 1530px;
-    height: 1500.57px;
+    max-width: 1530px;
+    max-height: 1500.57px;
     flex-direction: row;
     justify-content: center;
     margin: 0 auto 392.29px;
 }
 
 .products p {
-    width: 438.69px;
-    height: 377.11px;
+    max-width: 438.69px;
+    max-height: 377.11px;
 }
 
 .left-products {
     display: flex;
-    width: 539.66px;
+    max-width: 539.66px;
     flex-direction: column;
     justify-content: space-between;
     margin: 0 86.79px 0 125.62px;
 }
 
 .left-products img {
-    width: 539.66px;
-    height: 949.51px;
+    max-width: 539.66px;
+    max-height: 949.51px;
 }
 
 .left-products p {
@@ -102,10 +102,11 @@ header nav ul a {
 
 .right-products {
     display: flex;
-    width: 567.94px;
+    max-width: 567.94px;
     flex-direction: column;
     justify-content: space-between;
     margin-right: 108.01px;
+    gap: 269.54px;
 }
 
 .right-products p {
@@ -115,8 +116,8 @@ header nav ul a {
 }
 
 .right-products img {
-    width: 567.94px;
-    height: 853.92px;
+    max-width: 567.94px;
+    max-height: 853.92px;
 }
 
 .review {
@@ -125,6 +126,7 @@ header nav ul a {
     justify-content: center;
     align-items: center;
     margin-bottom: 366.5px;
+    width: 100%;
 }
 
 .review h1 {
@@ -158,34 +160,34 @@ header nav ul a {
 .review-container {
     display: flex;
     flex-direction: row;
-    height: 475px;
+    min-height: 475px;
     margin: 0 141.41px 46px 173.49px;
 }
 
 .text-container {
-    width: 748.39px;
-    height: 395.69px;
+    max-width: 748.39px;
+    max-height: 395.69px;
     margin-left: 86.68px;
 }
 
 .text-container p {
-    width: 714.94px;
-    height: 249.53px;
+    max-width: 714.94px;
+    max-height: 249.53px;
 }
 
 footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 64.09px;
-    width: 100%;
+    max-height: 64.09px;
+    min-width: 100%;
     background-color: #ffffff;
     padding: 22.5px 90.15px 22.5px 100.68px;
 }
 
 .left-bar {
     height: auto;
-    width: 148px;
+    max-width: 148px;
     text-align: center;
 }
 
